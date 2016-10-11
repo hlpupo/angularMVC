@@ -1,0 +1,42 @@
+{
+  "name": "angular-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-mocks": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bower": "^1.7.9",
+    "browser-sync": "^2.17.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-chmod": "^1.3.0",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-css-purge": "^1.0.27",
+    "gulp-if": "^2.0.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.0.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglifycss": "^1.0.6",
+    "gulp-watch": "^4.3.10",
+    "gulp-wiredep": "0.0.0",
+    "todomvc-common": "^1.0.2",
+    "yargs": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "todo"
+  ],
+  "author": "Hector Luis Reyes Pupo",
+  "license": "ISC"
+}
