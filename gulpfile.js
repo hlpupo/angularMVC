@@ -87,7 +87,7 @@ gulp.task('injectAll', function () {
 gulp.task('compileJSApp', function () {
   gulp.src(inputAppJS)
       .pipe(uglify())
-      .pipe(concat('assets/.app.js'))
+      .pipe(concat('appmvc.js'))
       .pipe(rename({suffix: '.min'}))
       .pipe(gulp.dest('dist/js'))
       .pipe(browserSync.reload({stream:true}))
@@ -110,7 +110,6 @@ gulp.task('compileJSService', function () {
   gulp.src(inputServiceJS)
       .pipe(uglify())
       .pipe(concat('appmvc.Service.js'))
-
       .pipe(rename({suffix: '.min'}))
       .pipe(gulp.dest('dist/js'))
       .pipe(browserSync.reload({stream:true}))

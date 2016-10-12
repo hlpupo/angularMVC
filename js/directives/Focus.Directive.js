@@ -8,6 +8,8 @@
  */
 (function () {
 	'use strict';
+
+
 	angular.module('appmvc.Directives').directive('todoFocus', _todoFocus);
 
 			_todoFocus.$inject = ['$timeout'];
